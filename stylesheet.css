@@ -1,0 +1,166 @@
+	h1 {		font-size: 42px;
+
+		color: #ff80aa;
+
+		margin-bottom: 30px;
+
+		font-weight: bold;
+
+		text-shadow: 2px 2px #c0c0c0;
+
+	}
+
+	.message {
+
+		background-color: #fff;
+
+		padding: 30px;
+
+		border-radius: 10px;
+
+		box-shadow: 0px 0px 10px #ccc;
+
+		max-width: 600px;
+
+		margin: 0 auto;
+
+	}
+
+	.message p {
+
+		font-size: 24px;
+
+		color: #333;
+
+		margin-bottom: 20px;
+
+		line-height: 1.5;
+
+		text-align: justify;
+
+		text-justify: inter-word;
+
+	}
+
+	.message span {
+
+		font-size: 28px;
+
+		font-weight: bold;
+
+		color: #ff80aa;
+
+	}
+
+	.btn {
+
+		display: inline-block;
+
+		background-color: #ff80aa;
+
+		color: #fff;
+
+		padding: 10px 20px;
+
+		border-radius: 5px;
+
+		text-decoration: none;
+
+		margin-top: 30px;
+
+		font-size: 18px;
+
+		transition: background-color 0.3s ease;
+
+		box-shadow: 2px 2px #c0c0c0;
+
+		position: relative;
+
+		overflow: hidden;
+
+	}
+
+	.btn:hover {
+
+		background-color: #ff4d79;
+
+	}
+
+	.btn:after {
+
+		content: '';
+
+		position: absolute;
+
+		top: 50%;
+
+		left: 50%;
+
+		transform: translate(-50%, -50%);
+
+		width: 0;
+
+		height: 0;
+
+		background-color: #fff;
+
+		border-radius: 100%;
+
+		opacity: 0.5;
+
+		z-index: -1;
+
+		transition: width 0.3s ease, height 0.3s ease;
+
+	}
+
+	.btn:hover:after {
+
+		width: 300px;
+
+		height: 300px;
+
+	}
+
+	.logo {
+
+		margin-top: 20px;
+
+		text-align: center;
+
+	}
+
+	.logo img {
+
+		width: 100px;
+
+		height: 100px;
+
+		border-radius: 50%;
+
+		box-shadow: 2px 2px #c0c0c0;
+
+	}
+
+	.signature {
+
+		font-size: 24px;
+
+		font-weight: bold;
+
+		color: #ff80aa;
+
+		text-shadow: 2px 2px #c0c0c0;
+
+		margin-top: 20px;
+
+	}
+
+</style>
+<div class="message">
+
+	<p>Dear <span>Graduate</span>,</p>	<p>Congratulations on your special day! You have done a great job and achieved a wonderful milestone in your life. I am so proud of you!</p>
+
+	<p>Always remember to keep following your dreams and passions. You are capable of achieving anything you set your mind to. Your future is bright and full of possibilities.</p>
+
+	<p>Best of luck to you in all your future endeavors
